@@ -11,6 +11,10 @@
             background-color: #212121;
             margin: 0;
             font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
         }
 
         .container {
@@ -69,20 +73,15 @@
             display: none;
         }
 
-        @media only screen and (-webkit-min-device-pixel-ratio: 2),
-        only screen and (min--moz-device-pixel-ratio: 2),
-        only screen and (-o-min-device-pixel-ratio: 2/1),
-        only screen and (min-device-pixel-ratio: 2),
-        only screen and (min-resolution: 192dpi),
-        only screen and (min-resolution: 2dppx) {
-            .logo-img-1x {
-                display: none;
-            }
 
-            .logo-img-2x {
-                display: inline-block;
-            }
+        .logo-img-1x {
+            display: none;
         }
+
+        .logo-img-2x {
+            display: inline-block;
+        }
+
 
         #suggestions {
             margin-top: 35px;
@@ -114,7 +113,7 @@
             Go to the <strong>SirNice</strong> <a href="https://SirNice.xyz/">home page</a> to return to the beginning.
         </p>
 
-        
+
         <div id="suggestions">
             <p><strong>Server status</strong></p>
             <a href="https://githubstatus.com">GitHub Status</a> &mdash;
@@ -122,13 +121,11 @@
         </div>
 
         <a href="/" class="logo logo-img-1x">
-            <img width="80" height="80" title="" alt=""
-                src="config/img/SirNice.png">
+            <img width="80" height="80" title="" alt="" src="config/img/SirNice.png">
         </a>
 
         <a href="/" class="logo logo-img-2x">
-            <img width="80" height="80" title="" alt=""
-                src="config/img/SirNice.png">
+            <img width="80" height="80" title="" alt="" src="config/img/SirNice.png">
         </a>
     </div>
 </body>
