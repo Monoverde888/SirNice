@@ -1,12 +1,17 @@
 * {
-    padding: 0px;
-    margin: 0px;
+    margin: 0;
+    padding: 0;
 }
+
+/* COLORES
+Blanco marfil: #eeeeee
+Turquesa: #32e0c4
+Verde marino: #0d7377
+Negro: #212121 */
 
 body {
     background-color: #212121;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    margin: 0;
 }
 
 a {
@@ -18,19 +23,108 @@ a:hover {
     text-decoration: underline;
 }
 
-.contenedor{
-    text-align: center;
-}
-
-h1 {
-    color: #32e0c3;
-    width: 800px;
-}
-
 p {
-    color: #0d7377;
+    color: #32e0c4;
+}
+
+/* =============== BARRA DE NAVEGACIÓN =============== */
+
+.navbar {
+    background-color: #eeeeee;
+    min-width: 100vh;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-h1 {
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 12px;
+}
+
+ul {
+    margin-right: 20px;
+    width: 45;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+li {
+    margin-left: 12px;
     font-size: 18px;
-    margin: 20px 0;
-    line-height: 1.6;
+}
+
+ul a {
+    color: #57a8b6;
+    text-decoration: none;
+}
+/* =============== =============== */
+
+/* =============== PORTAFOLIO =============== */
+
+.portafolio-info {
+    padding: 10px 10px;
+    background-color: yellowgreen;
+}
+
+.portafolio-info img {
+    height: 260px;
+    border-radius: 50%;
+}
+
+/* 
+.hola {
+    padding: 0px 100px;
+}
+
+.title {
+    padding: 50px 90px;
+}
+
+.izq {
+    float: right;
+}
+
+a {
+    margin: 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #eeeeee;
+}
+
+.navbar {
+    padding: 20px 42px;
+    background-color: #0d7377;
 
 }
+
+.navbar a:hover {
+    transition: 0.25s ease;
+    color: #32e0c4;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.caja {
+    border: 3px solid #32e0c4;
+    padding: 15px;
+    margin: 20px;
+    box-sizing: border-box;
+
+} */
