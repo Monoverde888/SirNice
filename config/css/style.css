@@ -23,9 +23,9 @@ a:hover {
     text-decoration: underline;
 }
 
-p {
+/* p {
     color: #32e0c4;
-}
+} */
 
 /* =============== BARRA DE NAVEGACIÓN =============== */
 
@@ -62,18 +62,34 @@ ul a {
     color: #57a8b6;
     text-decoration: none;
 }
+
 /* =============== =============== */
 
 /* =============== PORTAFOLIO =============== */
 
+.portafolio {
+    padding-top: 60px;
+    display: inline-flex;
+    width: 100%;
+}
+
 .portafolio-info {
-    padding: 10px 10px;
-    background-color: yellowgreen;
+    color: blue;
+    border: 0px solid red;
+    width: 50%;
+    text-align: center;
 }
 
 .portafolio-info img {
-    height: 260px;
+    height: 100px;
     border-radius: 50%;
+}
+
+.portafolio-biografia {
+    color: red;
+    border: 1px solid red;
+    width: 50%;
+    text-align: center;
 }
 
 /* 
